@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Design</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary rounded py-4" aria-label="Thirteenth navbar example"
+    style="background-color: rgb(228, 228, 228);">
+    <div class="container-fluid">
+      <a class="navbar-brand col-lg-3 me-0" href="#"><img src="assets/svg/logo.svg" alt="brand logo" height="30"
+          width="30">ElevateX</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample11"
+        aria-controls="navbarsExample11" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse text-center" id="navbarsExample11">
+
+        <ul class="navbar-nav col-lg-6 justify-content-lg-center">
+          <li class="nav-item">
+            <a class="nav-link active mx-2" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active mx-2" aria-current="page" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active mx-2" href="#">Demos</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle mx-2" href="#" data-bs-toggle="dropdown"
+              aria-expanded="false">Services</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active mx-2" aria-current="page" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar-end -->
+
+  <!-- carousel -->
+  <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="assets/Images/carousel-1.jpg" class="d-block w-100" alt="..." loading="eager">
+
+        <div class="carousel-caption custom-caption">
+          <h5>Grow Your Business Faster</h5>
+          <p>We create powerful digital strategies that drive real traffic, real leads, and real results.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="assets/Images/carousel-2.jpg" class="d-block w-100" alt="..." loading="eager">
+
+        <div class="carousel-caption custom-caption">
+          <h5>Design That Tells Your Story</h5>
+          <p>Creating clean, user-focused websites that reflect your vision and elevate your brand’s digital identity.
+          </p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="assets/Images/carousel-3.jpg" class="d-block w-100" alt="..." loading="eager">
+
+        <div class="carousel-caption custom-caption" style="color: black">
+          <h5>Build a Brand People Remembers</h5>
+          <p>From design to messaging, we craft digital experiences that connect and convert.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- carousel-end -->
+
+  <!-- about-us -->
+  <div class="container col-xxl-8 px-4 py-5 text-center text-lg-start" id="about">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-12 col-lg-6">
+        <img src="assets/Images/cl-web.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700"
+          height="500" loading="lazy">
+      </div>
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">About Us</h1>
+        <p class="lead">We are a full-service digital marketing agency driven by innovation, creativity, and a passion
+          for building brands that stand out.
+          Our expertise spans across SEO, social media strategies, performance advertising, content production,
+          branding, and modern website development.</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-center justify-content-lg-start">
+          <button type="button" class="btn btn-info btn-lg px-4" fdprocessedid="k15juq">Book a Consultation </button>
+          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2" fdprocessedid="vnpi8h">Get a Free
+            Quote</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- about-us-end -->
+
+  <!-- feature -->
+  <div class="container px-4 py-5">
+    <h2 class="pb-2 border-bottom text-center text-lg-start">Services We Offer</h2>
+
+    <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
+      <div class="col d-flex flex-column align-items-md-center align-items-lg-start gap-2 text-center text-lg-start">
+        <h2 class="fw-bold text-body-emphasis">What We Do Best</h2>
+        <p class="text-body-secondary">We specialize in crafting modern, responsive, and user-focused websites that
+          reflect your brand identity. Whether you're launching a new site or revamping an existing one, we blend
+          aesthetics with functionality to create an impactful online presence. Our goal is to deliver intuitive
+          navigation, optimized performance, and clean layouts that captivate visitors and convert them into customers.
+        </p>
+        <a href="#" class="btn btn-primary btn-lg">Learn More</a>
+      </div>
+
+      <div class="col">
+        <div class="row row-cols-1 row-cols-sm-2 g-4">
+          <div class="col d-flex flex-column gap-2">
+            <h4 class="fw-semibold mb-0 text-body-emphasis">
+              <div
+                class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3 me-3"
+                style="width: 48px; height: 48px;">
+                <img src="assets/svg/calendar2-range.svg" alt="calendar logo" class="svg">
+              </div>Responsive Design
+            </h4>
+            <p class="text-body-secondary">Your website will look stunning on any device — from desktops to smartphones.
+              We use flexible layouts and media queries to ensure seamless viewing experiences everywhere.</p>
+          </div>
+
+          <div class="col d-flex flex-column gap-2">
+
+            <h4 class="fw-semibold mb-0 text-body-emphasis">
+              <div
+                class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3 me-3"
+                style="width: 48px; height: 48px;">
+                <img src="assets/svg/gear-fill (1).svg" alt="gear icon" class="svg">
+              </div>SEO Optimization
+            </h4>
+            <p class="text-body-secondary">We structure your site and content for search engines, helping it rank higher
+              on Google and drive more organic traffic to your business.</p>
+          </div>
+
+          <div class="col d-flex flex-column gap-2">
+            <h4 class="fw-semibold mb-0 text-body-emphasis">
+              <div
+                class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3 me-3"
+                style="width: 48px; height: 48px;">
+                <img src="assets/svg/lightning-charge-fill.svg" alt="flash icon" class="svg">
+              </div>Fast Load Time
+            </h4>
+            <p class="text-body-secondary">Speed matters. We optimize images, scripts, and backend performance so that
+              your site loads quickly, reducing bounce rates and keeping visitors engaged..</p>
+          </div>
+
+          <div class="col d-flex flex-column gap-2">
+            <h4 class="fw-semibold mb-0 text-body-emphasis">
+              <div
+                class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3 me-3"
+                style="width: 48px; height: 48px;">
+                <img src="assets/svg/speedometer.svg" alt="speedometer icon" class="svg">
+              </div>Clean, Scalable Code
+            </h4>
+            <p class="text-body-secondary">Behind every beautiful design is robust, maintainable code. We build with
+              best practices, making it easier to scale, update, and grow your site in the future.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- feature-end -->
+
+  <!-- work -->
+  <div class="px-4 py-5" id="custom-cards">
+    <h2 class="pb-2 border-bottom text-center">Work Showcase</h2>
+    <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+      <div class="col text-center my-4 showcase-card mb-5">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+          style="background-image: url('assets/Images/market.jpg'); background-position: bottom">
+        </div>
+        <h5 class="link-body-emphasis mt-2">Digital Marketing</h5>
+      </div>
+
+      <div class="col text-center my-4 showcase-card mb-5">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg custom-image"
+          style="background-image: url('assets/Images/photography.jpg'); background-size: contain;">
+        </div>
+        <h5 class="link-body-emphasis mt-2">Photography Masonry</h5>
+      </div>
+
+      <div class="col text-center my-4 showcase-card mb-5">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+          style="background-image: url('assets/Images/web-design.jpg'); background-position: left">
+        </div>
+        <h5 class="link-body-emphasis mt-2">Landing Scroll</h5>
+      </div>
+
+      <div class="col text-center my-4 showcase-card mb-5">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+          style="background-image: url('assets/Images/conference.png'); background-size: contain">
+        </div>
+        <h5 class="link-body-emphasis mt-2">Conference & Events</h5>
+      </div>
+
+      <div class="col text-center my-4 showcase-card mb-5">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+          style="background-image: url('assets/Images/minimalistic.webp'); background-position: center">
+        </div>
+        <h5 class="link-body-emphasis mt-2">Minimal Creative</h5>
+      </div>
+      <div class="col text-center my-4 showcase-card mb-5">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+          style="background-image: url('assets/Images/portfolio.jpg'); background-position: center">
+        </div>
+        <h5 class="link-body-emphasis mt-2">Portfolio Metro</h5>
+      </div>
+      <div class="col text-center my-4 showcase-card mb-5">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+          style="background-image: url('assets/Images/architecture.jpg'); background-size: contain">
+        </div>
+        <h5 class="link-body-emphasis mt-2">Architecture</h5>
+      </div>
+      <div class="col text-center my-4 showcase-card mb-5">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+          style="background-image: url('assets/Images/productDesigner.png'); background-size: cover">
+        </div>
+        <h5 class="link-body-emphasis mt-2">Portfolio Product Designer</h5>
+      </div>
+      <div class="col text-center my-4 showcase-card mb-5">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+          style="background-image: url('assets/Images/finance.webp'); background-position: center">
+        </div>
+        <h5 class="link-body-emphasis mt-2">Consulting Finance</h5>
+      </div>
+      <div class="col text-center my-4 showcase-card mb-5">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+          style="background-image: url('assets/Images/freelance.jpg'); background-position: center">
+        </div>
+        <h5 class="link-body-emphasis mt-2">Freelancer</h5>
+      </div>
+      <div class="col text-center my-4 showcase-card mb-5">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+          style="background-image: url('assets/Images/carousel.webp'); background-position: left">
+        </div>
+        <h5 class="link-body-emphasis mt-2">Portfolio Fullscreen Carousel</h5>
+      </div>
+      <div class="col text-center my-4 showcase-card mb-5">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+          style="background-image: url('assets/Images/landingPage.jpg'); background-position: center;">
+        </div>
+        <h5 class="link-body-emphasis mt-2">Scroll Story</h5>
+      </div>
+      <div class="col text-center my-4 showcase-card mb-5">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+          style="background-image: url('assets/Images/blog.jpg'); background-size: contain;">
+        </div>
+        <h5 class="link-body-emphasis mt-2">Blog Simple</h5>
+      </div>
+      <div class="col text-center my-4 showcase-card mb-5">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+          style="background-image: url('assets/Images/startup.webp');  background-size: contain;">
+        </div>
+        <h5 class="link-body-emphasis mt-2">Startup</h5>
+      </div>
+      <div class="col text-center my-4 showcase-card mb-5">
+        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+          style="background-image: url('assets/Images/shop.png'); background-size: cover;">
+        </div>
+        <h5 class="link-body-emphasis mt-2">Shop Classic</h5>
+      </div>
+    </div>
+  </div>
+  <!-- work-end -->
+
+  <!-- choose -->
+  <div class="container px-4 py-5" id="featured-3">
+    <h2 class="pb-2 border-bottom">Why Choose Us</h2>
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div class="feature col pb-5">
+        <div
+          class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3 rounded-3"
+          style="width: 48px; height: 48px;">
+          <img src="assets/svg/shield-check.svg" alt="shield icon" class="svg">
+        </div>
+        <h3 class="fs-2 text-body-emphasis">Reliable Performance</h3>
+        <p>We deliver consistent and dependable solutions that work flawlessly every time. From project kickoff to
+          launch and beyond, we’re committed to making sure everything runs smoothly without surprises.</p>
+        <a href="#" class="icon-link link-offset-3">
+          Learn More
+          <svg class="bi" aria-hidden="true">
+            <use xlink:href="#chevron-right"></use>
+          </svg>
+        </a>
+      </div>
+      <div class="feature col pb-5">
+        <div
+          class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3 rounded-3"
+          style="width: 48px; height: 48px;">
+          <img src="assets/svg/headset.svg" alt="headset icon" class="svg">
+        </div>
+        <h3 class="fs-2 text-body-emphasis">Professional Support</h3>
+        <p>Need help? We’re here for you. Our team offers timely, professional support to solve issues fast and keep
+          your operations on track — long after the project is complete to make sure your site is running smoothly.</p>
+        <a href="#" class="icon-link link-offset-3">
+          Learn More
+          <svg class="bi" aria-hidden="true">
+            <use xlink:href="#chevron-right"></use>
+          </svg>
+        </a>
+      </div>
+      <div class="feature col">
+        <div
+          class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3 rounded-3"
+          style="width: 48px; height: 48px;">
+          <img src="assets/svg/bar-chart-line-fill.svg" alt="bar chart icon" class="svg">
+        </div>
+        <h3 class="fs-2 text-body-emphasis">Long-Term Partnership</h3>
+        <p>We’re not just here for a quick project — we’re here to grow with you. Our clients see us as long-term
+          partners, ready to adapt, support, and evolve together as your needs change over time.</p>
+        <a href="#" class="icon-link link-offset-3">
+          Learn More
+          <svg class="bi" aria-hidden="true">
+            <use xlink:href="#chevron-right"></use>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- choose-end -->
+
+  <!-- footer -->
+  <section style="background-color: rgb(228, 228, 228);">
+    <footer class="container py-5">
+      <div class="row">
+        <div class="col-lg-2 col-md-6 col-sm-12 mb-3">
+          <h5>Company</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a class="icon-link icon-link-hover text-decoration-none custom-link"
+                style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" class="bi" viewBox="0 0 16 16" aria-hidden="true">
+                  <path
+                    d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z" />
+                  <path
+                    d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z" />
+                </svg>
+                About Us
+              </a>
+            </li>
+            <li class="nav-item mb-2"><a class="icon-link icon-link-hover text-decoration-none custom-link"
+                style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" class="bi" viewBox="0 0 16 16" aria-hidden="true">
+                  <path
+                    d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z" />
+                  <path
+                    d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z" />
+                </svg>
+                Our Work
+              </a>
+            </li>
+            <li class="nav-item mb-2"><a class="icon-link icon-link-hover text-decoration-none custom-link"
+                style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" class="bi" viewBox="0 0 16 16" aria-hidden="true">
+                  <path
+                    d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z" />
+                  <path
+                    d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z" />
+                </svg>
+                Careers
+              </a>
+            </li>
+            <li class="nav-item mb-2"><a class="icon-link icon-link-hover text-decoration-none custom-link"
+                style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" class="bi" viewBox="0 0 16 16" aria-hidden="true">
+                  <path
+                    d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z" />
+                  <path
+                    d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z" />
+                </svg>
+                Press
+              </a>
+            </li>
+            <li class="nav-item mb-2"><a class="icon-link icon-link-hover text-decoration-none custom-link"
+                style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" class="bi" viewBox="0 0 16 16" aria-hidden="true">
+                  <path
+                    d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z" />
+                  <path
+                    d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z" />
+                </svg>
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-6 col-sm-12 mb-3">
+          <h5>Services</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a class="icon-link icon-link-hover text-decoration-none custom-link"
+                style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" class="bi" viewBox="0 0 16 16" aria-hidden="true">
+                  <path
+                    d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z" />
+                  <path
+                    d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z" />
+                </svg>
+                Social Media Marketing
+              </a>
+            </li>
+            <li class="nav-item mb-2"><a class="icon-link icon-link-hover text-decoration-none custom-link"
+                style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" class="bi" viewBox="0 0 16 16" aria-hidden="true">
+                  <path
+                    d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z" />
+                  <path
+                    d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z" />
+                </svg>
+                SEO Optimization
+              </a>
+            </li>
+            <li class="nav-item mb-2"><a class="icon-link icon-link-hover text-decoration-none custom-link"
+                style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" class="bi" viewBox="0 0 16 16" aria-hidden="true">
+                  <path
+                    d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z" />
+                  <path
+                    d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z" />
+                </svg>
+                Website Development
+              </a>
+            </li>
+            <li class="nav-item mb-2"><a class="icon-link icon-link-hover text-decoration-none custom-link"
+                style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" class="bi" viewBox="0 0 16 16" aria-hidden="true">
+                  <path
+                    d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z" />
+                  <path
+                    d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z" />
+                </svg>
+                Branding & Design
+              </a>
+            </li>
+            <li class="nav-item mb-2"><a class="icon-link icon-link-hover text-decoration-none custom-link"
+                style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" class="bi" viewBox="0 0 16 16" aria-hidden="true">
+                  <path
+                    d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z" />
+                  <path
+                    d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z" />
+                </svg>
+                Paid Advertising
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-auto col-md-12 mb-3 ms-lg-auto pt-3">
+          <form>
+            <h5>Subscribe to our newsletter</h5>
+            <p>Monthly digest of what's new and exciting from us.</p>
+            <div class="d-flex flex-column flex-sm-row w-100 gap-2"> <label for="newsletter1"
+                class="visually-hidden">Email address</label> <input id="newsletter1" type="email" class="form-control"
+                placeholder="Email address" fdprocessedid="rxbxlj"> <button class="btn btn-primary" type="button"
+                fdprocessedid="x8om6n">Subscribe</button> </div>
+          </form>
+        </div>
+      </div>
+      <div class="d-flex flex-column flex-sm-row justify-content-between pt-4 mt-4 border-top">
+        <p>© 2025 Company, Inc. All rights reserved.</p>
+        <ul class="list-unstyled d-flex justify-content-center justify-content-lg-end">
+          <li class="ms-3"><a class="link-body-emphasis" href="#" aria-label="Instagram"><img class="social-icon"
+                src="assets/svg/twitter-x.svg" alt="twitter icon"></a></li>
+          <li class="ms-3"><a class="link-body-emphasis" href="#" aria-label="Facebook"><img class="social-icon"
+                src="./assets/svg/instagram.svg" alt="instagram icon"></a></li>
+          <li class="ms-3"><a class="link-body-emphasis" href="#" aria-label="Instagram"><img class="social-icon"
+                src="assets/svg/whatsapp.svg" alt="whatsapp icon"></a></li>
+          <li class="ms-3"><a class="link-body-emphasis" href="#" aria-label="Instagram"><img class="social-icon"
+                src="assets/svg/facebook.svg" alt="facebook icon"></a></li>
+          <li class="ms-3"><a class="link-body-emphasis" href="#" aria-label="Instagram"><img class="social-icon"
+                src="assets/svg/linkedin.svg" alt="Linkedin icon"></a></li>
+        </ul>
+      </div>
+    </footer>
+  </section>
+  <!-- footer-end -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+
+
+<!-- 1. How to set lazy loading on inline styles
+      2. 4,5,6  -->
